@@ -599,6 +599,7 @@
     }else if (cityIconsImgViews == _cityIconsImgViews14){
         _gapTimeAnimation = 0.1;
     }
+    _gapTimeAnimation = 0.5;
     [NSTimer scheduledTimerWithTimeInterval:_gapTimeAnimation target:self selector:@selector(performStartCityIconAnimationWithCityIcon:) userInfo:cityIconsImgViews repeats:YES];
     [[NSRunLoop currentRunLoop] run];
 }
